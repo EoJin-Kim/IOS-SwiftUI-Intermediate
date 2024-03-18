@@ -13,8 +13,8 @@ struct SwiftUIIntermediateApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FetchRequestInter()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            CoreDataInter()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
