@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE8C8C352BA7E47B0048AF85 /* FetchRequestInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C8C342BA7E47B0048AF85 /* FetchRequestInter.swift */; };
+		AE8C8C372BA7E4DC0048AF85 /* UIViewRepresentableInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C8C362BA7E4DC0048AF85 /* UIViewRepresentableInter.swift */; };
+		AE8C8C3A2BA7E53D0048AF85 /* UIViewControllerRepresentablInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C8C392BA7E53D0048AF85 /* UIViewControllerRepresentablInter.swift */; };
 		EB1310CF2BA6C4330056F0FE /* WeekSelfIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310CE2BA6C4330056F0FE /* WeekSelfIntermediate.swift */; };
 		EB1310D12BA6CD310056F0FE /* TypealiasInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310D02BA6CD310056F0FE /* TypealiasInter.swift */; };
 		EB1310D52BA6CEB80056F0FE /* GenericInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310D42BA6CEB80056F0FE /* GenericInter.swift */; };
@@ -18,9 +21,7 @@
 		EB1310E12BA70EAC0056F0FE /* ViewBuilderInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310E02BA70EAC0056F0FE /* ViewBuilderInter.swift */; };
 		EB1310E32BA728050056F0FE /* ViewModifierInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310E22BA728050056F0FE /* ViewModifierInter.swift */; };
 		EB1310E52BA72BD80056F0FE /* MatchedGeomatryEffectInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310E42BA72BD80056F0FE /* MatchedGeomatryEffectInter.swift */; };
-		EB1310E72BA73DD80056F0FE /* UIViewRepresentableInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1310E62BA73DD80056F0FE /* UIViewRepresentableInter.swift */; };
 		EBE3D64A2BA5CB9F00D363F8 /* SwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3D6492BA5CB9F00D363F8 /* SwiftUIIntermediateApp.swift */; };
-		EBE3D64C2BA5CB9F00D363F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3D64B2BA5CB9F00D363F8 /* ContentView.swift */; };
 		EBE3D64E2BA5CBA000D363F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE3D64D2BA5CBA000D363F8 /* Assets.xcassets */; };
 		EBE3D6512BA5CBA000D363F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE3D6502BA5CBA000D363F8 /* Preview Assets.xcassets */; };
 		EBE3D6532BA5CBA000D363F8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3D6522BA5CBA000D363F8 /* Persistence.swift */; };
@@ -31,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE8C8C342BA7E47B0048AF85 /* FetchRequestInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRequestInter.swift; sourceTree = "<group>"; };
+		AE8C8C362BA7E4DC0048AF85 /* UIViewRepresentableInter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableInter.swift; sourceTree = "<group>"; };
+		AE8C8C392BA7E53D0048AF85 /* UIViewControllerRepresentablInter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentablInter.swift; sourceTree = "<group>"; };
 		EB1310CE2BA6C4330056F0FE /* WeekSelfIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSelfIntermediate.swift; sourceTree = "<group>"; };
 		EB1310D02BA6CD310056F0FE /* TypealiasInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypealiasInter.swift; sourceTree = "<group>"; };
 		EB1310D42BA6CEB80056F0FE /* GenericInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericInter.swift; sourceTree = "<group>"; };
@@ -42,10 +46,8 @@
 		EB1310E02BA70EAC0056F0FE /* ViewBuilderInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderInter.swift; sourceTree = "<group>"; };
 		EB1310E22BA728050056F0FE /* ViewModifierInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierInter.swift; sourceTree = "<group>"; };
 		EB1310E42BA72BD80056F0FE /* MatchedGeomatryEffectInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeomatryEffectInter.swift; sourceTree = "<group>"; };
-		EB1310E62BA73DD80056F0FE /* UIViewRepresentableInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableInter.swift; sourceTree = "<group>"; };
 		EBE3D6462BA5CB9F00D363F8 /* SwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE3D6492BA5CB9F00D363F8 /* SwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
-		EBE3D64B2BA5CB9F00D363F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBE3D64D2BA5CBA000D363F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBE3D6502BA5CBA000D363F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBE3D6522BA5CBA000D363F8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -96,7 +98,6 @@
 				EBE3D6542BA5CBA000D363F8 /* SwiftUIIntermediate.xcdatamodeld */,
 				EBE3D64F2BA5CBA000D363F8 /* Preview Content */,
 				EB1310E42BA72BD80056F0FE /* MatchedGeomatryEffectInter.swift */,
-				EB1310E62BA73DD80056F0FE /* UIViewRepresentableInter.swift */,
 			);
 			path = SwiftUIIntermediate;
 			sourceTree = "<group>";
@@ -112,6 +113,7 @@
 		EBE3D65C2BA5CBD800D363F8 /* SwiftUI with Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				AE8C8C342BA7E47B0048AF85 /* FetchRequestInter.swift */,
 			);
 			path = "SwiftUI with Core Data";
 			sourceTree = "<group>";
@@ -119,6 +121,8 @@
 		EBE3D65D2BA5CBEC00D363F8 /* Swift UI with UiKit */ = {
 			isa = PBXGroup;
 			children = (
+				AE8C8C392BA7E53D0048AF85 /* UIViewControllerRepresentablInter.swift */,
+				AE8C8C362BA7E4DC0048AF85 /* UIViewRepresentableInter.swift */,
 			);
 			path = "Swift UI with UiKit";
 			sourceTree = "<group>";
@@ -139,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				EBE3D6492BA5CB9F00D363F8 /* SwiftUIIntermediateApp.swift */,
-				EBE3D64B2BA5CB9F00D363F8 /* ContentView.swift */,
 			);
 			path = APP;
 			sourceTree = "<group>";
@@ -231,14 +234,15 @@
 				EBE3D6562BA5CBA000D363F8 /* SwiftUIIntermediate.xcdatamodeld in Sources */,
 				EBE3D6532BA5CBA000D363F8 /* Persistence.swift in Sources */,
 				EB1310D12BA6CD310056F0FE /* TypealiasInter.swift in Sources */,
-				EBE3D64C2BA5CB9F00D363F8 /* ContentView.swift in Sources */,
+				AE8C8C372BA7E4DC0048AF85 /* UIViewRepresentableInter.swift in Sources */,
 				EBE3D6642BA5D1B900D363F8 /* FuctionsInter.swift in Sources */,
 				EB1310E32BA728050056F0FE /* ViewModifierInter.swift in Sources */,
 				EB1310E12BA70EAC0056F0FE /* ViewBuilderInter.swift in Sources */,
+				AE8C8C3A2BA7E53D0048AF85 /* UIViewControllerRepresentablInter.swift in Sources */,
 				EB1310DF2BA707B70056F0FE /* LocalNotificationInter.swift in Sources */,
 				EBE3D6622BA5CC4800D363F8 /* IfLetGrammar.swift in Sources */,
 				EBE3D64A2BA5CB9F00D363F8 /* SwiftUIIntermediateApp.swift in Sources */,
-				EB1310E72BA73DD80056F0FE /* UIViewRepresentableInter.swift in Sources */,
+				AE8C8C352BA7E47B0048AF85 /* FetchRequestInter.swift in Sources */,
 				EB1310E52BA72BD80056F0FE /* MatchedGeomatryEffectInter.swift in Sources */,
 				EB1310CF2BA6C4330056F0FE /* WeekSelfIntermediate.swift in Sources */,
 				EB1310D72BA6D2DD0056F0FE /* DoCatchTryThrowInter.swift in Sources */,
@@ -388,7 +392,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,7 +422,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

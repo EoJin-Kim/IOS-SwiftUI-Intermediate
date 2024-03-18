@@ -13,10 +13,14 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+        
+        
+        // 여기서 FinshEntity가 업데이트가 안되면 command + shift + K  코드 클린
+        for x in 1..<11{
+            let newFinsh = FishEntity(context: viewContext)
+            newFinsh.name = "광어 \(x)"
         }
+        
         do {
             try viewContext.save()
         } catch {

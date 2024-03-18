@@ -13,7 +13,7 @@ struct SwiftUIIntermediateApp: App {
 
     var body: some Scene {
         WindowGroup {
-            UIViewRepresentableInter()
+            FetchRequestInter()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
